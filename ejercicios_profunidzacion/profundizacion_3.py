@@ -30,3 +30,37 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+temp_1 = float(input("Ingrese el primer valor:"))
+temp_2 = float(input("Ingrese el segundo valor:"))
+temp_3 = float(input("Ingrese el tercer valor:"))
+#temp 1 es la maxima y temp 3 es la minima
+if temp_1 > temp_2 and temp_1 > temp_3 and temp_2 > temp_3:
+    print("{} es la temperatura mas alta ingresada".format(temp_1))
+    print("{} es la temperatura mas baja ingresada".format(temp_3))
+# temp1 maxima y temp2 minima
+elif temp_1 > temp_2 and temp_1 > temp_3 and temp_3 > temp_2:
+    print("{} es la temperatura mas alta ingresada".format(temp_1))
+    print("{} es la temperatura mas baja ingresada".format(temp_2))
+# temp2 maxima y temp1 minima        
+elif temp_2 > temp_1 and temp_3 > temp_1 and temp_2 > temp_3:
+    print("{} es la temperatura mas alta ingresada".format(temp_2))
+    print("{} es la temperatura mas baja ingresada".format(temp_1))
+#temp2 maxima y temp 3 minima
+elif temp_2 > temp_1 and temp_1 > temp_3 and temp_2 > temp_3:
+    print("{} es la temperatura mas alta ingresada".format(temp_2))
+    print("{} es la temperatura mas baja ingresada".format(temp_3))
+# temp3 maxima y temp 1 minima
+elif temp_3 > temp_1 and temp_3 > temp_2 and temp_2 > temp_1:
+    print("{} es la temperatura mas alta ingresada".format(temp_3))
+    print("{} es la temperatura mas baja ingresada".format(temp_1))
+#temp3 maxima y temp2 minima
+elif temp_3 > temp_1 and temp_3 > temp_2 and temp_1 > temp_2:
+    print("{} es la temperatura mas alta ingresada".format(temp_3))
+    print("{} es la temperatura mas baja ingresada".format(temp_2))    
+
+promedio = (temp_1 + temp_2 + temp_3)
+resultado = (promedio // 3)
+print("El promedio de las temperaturas ingresadas es: {}".format(resultado))
+
+
+
