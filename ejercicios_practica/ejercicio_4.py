@@ -16,7 +16,7 @@ texto_2 = '7'
 # La comparación alfabética es aquella que se logra cuando
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
-if str(texto_1 > texto_2):
+if (texto_1 > texto_2):
     print("{} es mayor alfabeticamente a {}".format(texto_1,texto_2))
 else:
     print("{} es mayor alfabeticamente a {}".format(texto_2,texto_1))

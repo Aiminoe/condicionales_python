@@ -67,7 +67,7 @@ if (orden == 1):
         print(palabra_1)
         print(palabra_2)
 #orden por cantidad de caracteres
-if (orden == 2):
+elif (orden == 2):
     if len(palabra_1) > len(palabra_2) and len(palabra_2) > len(palabra_3) and len(palabra_1) > len(palabra_3):
         print(palabra_1)
         print(palabra_2)
@@ -92,7 +92,9 @@ if (orden == 2):
         print(palabra_3)
         print(palabra_1)
         print(palabra_2)
-
+else:
+    print("El valor ingresado es incorrecto")
+    
 
 
 

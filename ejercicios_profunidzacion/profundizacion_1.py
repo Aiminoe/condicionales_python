@@ -30,5 +30,4 @@ if resta > 0:
 elif resta == 0:
     print("El resultado de la diferencia es 0")
 else:
-    if resta < 0:
-        print("El resultado de la diferencia es negativo")
+    print("El resultado de la diferencia es negativo")
